@@ -15,8 +15,10 @@ def index(request):
     page_obj = paginator.get_page(page_number)
 
     context = {
+
         'page_obj': page_obj,
-        'site_title': 'Contatos - '
+        'site_title': 'Contatos - ',
+
     }
 
     return render(request, 'contact/index.html', context)
