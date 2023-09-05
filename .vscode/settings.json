@@ -2,7 +2,7 @@
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
     "editor.rulers": [
-      80
+      81
     ],
     "code-runner.executorMap": {
       "python": "clear ; python -u"
